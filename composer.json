@@ -4,37 +4,39 @@
     "keywords": ["php", "qa", "tools", "debug"],
     "type": "metapackage",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Julius Beckmann",
-            "email": "phpqatools@h4cc.de",
-            "homepage": "http://h4cc.de"
-        }
-    ],
+    "authors": [{
+        "name": "Julius Beckmann",
+        "email": "phpqatools@h4cc.de",
+        "homepage": "http://h4cc.de"
+    }],
     "config": {
         "bin-dir": "bin",
         "vendor-dir": "vendor"
     },
     "require": {
-        "phpunit/phpunit": "~3.7",
-        "phpunit/php-invoker": "~1.1",
-        "phpunit/dbunit": "~1.2",
+        "phpunit/phpunit": "~3",
+        "phpunit/php-invoker": "~1",
+        "phpunit/dbunit": "~1",
 
-        "phploc/phploc": "~2.0",
-        "sebastian/phpcpd": "~2.0",
+        "phploc/phploc": "~2",
+        "sebastian/hhvm-wrapper": "~2",
+        "mikey179/vfsStream": "~1",
+        "sebastian/phpcpd": "~2",
+        "sebastian/phpdcd": "~1",
 
-        "pdepend/pdepend": "~1.1",
-        "phpmd/phpmd": "~1.4",
-        "squizlabs/php_codesniffer": "~1.4",
+        "pdepend/pdepend": "~1",
+        "theseer/phpdox": "~0",
+        "behat/behat": "~2",
+        "phpmd/phpmd": "~1",
+        "squizlabs/php_codesniffer": "~1",
 
-        "fabpot/php-cs-fixer": "~0.3",
-        "sensiolabs/security-checker": "~1.2"
+        "fabpot/php-cs-fixer": "~0",
+        "sensiolabs/security-checker": "~1"
     },
     "suggest": {
         "sami/sami": "Documentation generator used for Symfony2 docs.",
         "apigen/apigen": "Documentation Generator using nette and texy.",
         "phpdocumentor/phpdocumentor": "Documentation Generator for PHP.",
-        "theseer/phpdox": "[NotYetStable] A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing.",
 
         "mayflower/php-codebrowser": "[Deps-NotYetStable] Browser for PHP code."
     }
