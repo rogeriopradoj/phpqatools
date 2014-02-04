@@ -29,7 +29,9 @@
         "squizlabs/php_codesniffer": "~1",
 
         "fabpot/php-cs-fixer": "~0",
-        "sensiolabs/security-checker": "~1"
+        "sensiolabs/security-checker": "~1",
+
+        "phing/phing": "~2"
     },
     "suggest": {
         "sami/sami": "Documentation generator used for Symfony2 docs.",
